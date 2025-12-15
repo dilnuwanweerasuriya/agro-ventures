@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Menu, X, Leaf, ChevronDown } from 'lucide-react'
+import { Menu, X, ChevronDown } from 'lucide-react'
 import { navLinks } from '../data/content'
 
 const Navbar = () => {
@@ -23,25 +23,17 @@ const Navbar = () => {
     }`}>
       <div className="container-custom">
         <div className="flex items-center justify-between">
-          {/* Logo */}
+          {/* Logo with CSS Filter */}
           <a href="#home" className="flex items-center space-x-3 group">
-            <div className={`p-2 rounded-xl transition-all duration-300 ${
-              isScrolled ? 'bg-primary-600' : 'bg-white/20 backdrop-blur-sm'
-            }`}>
-              <Leaf className={`w-8 h-8 ${isScrolled ? 'text-white' : 'text-white'}`} />
-            </div>
-            <div>
-              <span className={`text-2xl font-display font-bold transition-colors duration-300 ${
-                isScrolled ? 'text-primary-800' : 'text-white'
-              }`}>
-                AgroVentures
-              </span>
-              <span className={`block text-xs font-medium tracking-widest uppercase ${
-                isScrolled ? 'text-primary-600' : 'text-white/80'
-              }`}>
-                Exports
-              </span>
-            </div>
+            <img 
+              src="/logo.png" 
+              className={`w-40 transition-all duration-500 ${
+                isScrolled 
+                  ? 'brightness-100 invert-0' 
+                  : 'brightness-0 invert filter'
+              }`} 
+              alt="Logo" 
+            />
           </a>
 
           {/* Desktop Navigation */}
@@ -65,7 +57,6 @@ const Navbar = () => {
                   {link.dropdown && <ChevronDown className="w-4 h-4 ml-1" />}
                 </a>
                 
-                {/* Dropdown */}
                 {link.dropdown && activeDropdown === link.name && (
                   <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden animate-fade-in-up">
                     {link.dropdown.map((item) => (

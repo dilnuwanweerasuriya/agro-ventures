@@ -1,29 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import { ArrowRight, Play, ChevronDown, Globe, Award, Truck } from 'lucide-react'
+import { ArrowRight, Play, ChevronDown } from 'lucide-react'
+import { features, slides } from '../../data/content'
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
-  
-  const slides = [
-    {
-      title: "Premium Agricultural",
-      subtitle: "Exports Worldwide",
-      description: "Delivering the finest quality spices, grains, and agricultural products from India to global markets.",
-      image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1920&q=80"
-    },
-    {
-      title: "From Farm to",
-      subtitle: "Your Doorstep",
-      description: "Connecting farmers with international buyers through sustainable and ethical practices.",
-      image: "https://images.unsplash.com/photo-1682482001313-0581da8e2b58?q=80&w=927&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    },
-    {
-      title: "Quality Certified",
-      subtitle: "Global Standards",
-      description: "ISO certified export processes ensuring premium quality in every shipment.",
-      image: "https://images.unsplash.com/photo-1581524674552-80462a204517?q=80&w=988&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    }
-  ]
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -31,12 +11,6 @@ const Hero = () => {
     }, 6000)
     return () => clearInterval(timer)
   }, [])
-
-  const features = [
-    { icon: Globe, text: "50+ Countries" },
-    { icon: Award, text: "ISO Certified" },
-    { icon: Truck, text: "Fast Delivery" }
-  ]
 
   return (
     <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
@@ -66,7 +40,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="container-custom relative z-10 pt-20">
-        <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
+        <div className="flex justify-center items-center text-center min-h-[80vh]">
           <div className="text-white space-y-8">
             {/* Badge */}
             <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 animate-fade-in">
@@ -90,19 +64,15 @@ const Hero = () => {
             </p>
 
             {/* CTA Buttons */}
-            <div className="flex flex-wrap gap-4 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-              <a href="#products" className="btn-primary group">
+            <div className="flex flex-wrap justify-center gap-4 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+              <a href="/products" className="btn-primary group">
                 Explore Products
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
-              <button className="btn-outline group">
-                <Play className="w-5 h-5 mr-2" />
-                Watch Video
-              </button>
             </div>
 
             {/* Feature Pills */}
-            <div className="flex flex-wrap gap-4 pt-4 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
+            <div className="flex flex-wrap justify-center gap-4 pt-4 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
               {features.map((feature, index) => (
                 <div 
                   key={index}
@@ -116,9 +86,8 @@ const Hero = () => {
           </div>
 
           {/* Right Side - Floating Cards */}
-          <div className="hidden lg:block relative">
+          {/* <div className="hidden lg:block relative">
             <div className="relative w-full h-125">
-              {/* Main Card */}
               <div className="absolute top-0 right-0 w-72 bg-white/10 backdrop-blur-lg rounded-3xl p-6 border border-white/20 animate-float">
                 <img 
                   src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=400&q=80" 
@@ -129,18 +98,16 @@ const Hero = () => {
                 <p className="text-white/70 text-sm mt-1">Export Quality Turmeric, Chili, Cumin</p>
               </div>
 
-              {/* Secondary Card */}
               <div className="absolute bottom-0 left-0 w-64 bg-white/10 backdrop-blur-lg rounded-3xl p-6 border border-white/20 animate-float" style={{ animationDelay: '1s' }}>
                 <img 
-                  src="https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&q=80" 
-                  alt="Rice"
+                  src="/src/assets/images/pure_vanilla.jpg" 
+                  alt="Vanilla"
                   className="w-full h-32 object-cover rounded-2xl mb-4"
                 />
-                <h3 className="text-white font-semibold">Basmati Rice</h3>
+                <h3 className="text-white font-semibold">Vanilla Extracts</h3>
                 <p className="text-white/70 text-sm mt-1">Long Grain Premium Quality</p>
               </div>
 
-              {/* Stats Card */}
               <div className="absolute top-1/2 left-10 bg-primary-600 rounded-2xl p-4 shadow-xl animate-float" style={{ animationDelay: '2s' }}>
                 <div className="text-white text-center">
                   <div className="text-3xl font-bold">500+</div>
@@ -148,7 +115,9 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
+
+          
         </div>
 
         {/* Slide Indicators */}

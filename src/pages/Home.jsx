@@ -8,7 +8,7 @@ import WhyChooseUs from "../components/home/WhyChooseUs";
 import Stats from "../components/home/Stats";
 import Testimonials from "../components/home/Testimonials";
 import CTA from "../components/home/CTA";
-import Contact from "../components/home/Contact";
+import Companies from "../components/home/Companies";
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -22,8 +22,8 @@ export default function Home() {
       <WhyChooseUs />
       {/* <Stats /> */}
       <Testimonials />
-      <CTA />
-      <Contact />
+      {/* <CTA /> */}
+      <Companies />
       <Footer />
     </>
   );

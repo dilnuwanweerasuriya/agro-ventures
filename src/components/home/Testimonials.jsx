@@ -84,8 +84,6 @@ const Testimonials = () => {
                 />
                 <div className="ml-4">
                   <h4 className="font-bold text-gray-900">{testimonials[currentIndex].name}</h4>
-                  <p className="text-gray-600">{testimonials[currentIndex].position}</p>
-                  <p className="text-primary-600 font-medium">{testimonials[currentIndex].company}</p>
                 </div>
               </div>
             </div>
@@ -93,18 +91,6 @@ const Testimonials = () => {
             {/* Decorative Elements */}
             <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-primary-100 rounded-3xl -z-10" />
             <div className="absolute -top-6 -right-6 w-24 h-24 bg-secondary-100 rounded-3xl -z-10" />
-          </div>
-        </div>
-
-        {/* Company Logos */}
-        <div className="mt-20 pt-16 border-t border-gray-200">
-          <p className="text-center text-gray-500 mb-8">Group of Companies</p>
-          <div className="flex flex-wrap justify-center items-center gap-12 opacity-60">
-            {['Company 1', 'Company 2', 'Company 3', 'Company 4', 'Company 5'].map((company, index) => (
-              <div key={index} className="text-2xl font-bold text-gray-400 hover:text-gray-600 transition-colors">
-                {company}
-              </div>
-            ))}
           </div>
         </div>
       </div>

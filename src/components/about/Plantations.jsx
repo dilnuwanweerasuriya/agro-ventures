@@ -83,7 +83,7 @@ const Plantations = () => {
   }
 
   return (
-    <section id="plantations" className="section-padding bg-gradient-to-b from-primary-900 to-gray-900 relative overflow-hidden">
+    <section id="plantations" className="section-padding bg-linear-to-b from-primary-900 to-gray-900 relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary-500/10 rounded-full blur-3xl" />
@@ -132,9 +132,9 @@ const Plantations = () => {
               <img 
                 src={currentPlantation.image}
                 alt={currentPlantation.name}
-                className="w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-105"
+                className="w-full h-125 object-cover transition-transform duration-700 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-gray-900/80 via-transparent to-transparent" />
             </div>
 
             {/* Navigation Arrows */}
@@ -237,7 +237,7 @@ const Plantations = () => {
 
             {/* CTA */}
             <a 
-              href="#contact" 
+              href="/contact" 
               className="inline-flex items-center text-primary-400 font-semibold hover:text-primary-300 group"
             >
               Schedule a Farm Visit
@@ -261,7 +261,7 @@ const Plantations = () => {
                 alt={plantation.name}
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-gray-900/80 to-transparent" />
               <span className="absolute bottom-2 left-2 right-2 text-white text-sm font-medium truncate">
                 {plantation.name.split(' ')[0]}
               </span>

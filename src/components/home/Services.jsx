@@ -64,7 +64,7 @@ const Services = () => {
             <p className="text-white text-lg">
               Need a custom export solution?
             </p>
-            <a href="#contact" className="btn-primary py-3 px-6">
+            <a href="/contact" className="btn-primary py-3 px-6">
               Contact Our Team
             </a>
           </div>

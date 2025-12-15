@@ -7,6 +7,14 @@ import {
   Globe,
   Warehouse,
   FlaskConical,
+  Facebook,
+  Twitter,
+  Instagram,
+  Youtube,
+  Award,
+  Users,
+  Target,
+  Leaf,
 } from "lucide-react";
 
 export const navLinks = [
@@ -170,42 +178,115 @@ export const services = [
 export const testimonials = [
   {
     id: 1,
-    name: "Ahmed Al-Hassan",
-    position: "Import Manager",
-    company: "Gulf Foods Trading, UAE",
-    image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+    name: "Mr. Udara Madushanka",
+    image: "/src/assets/reviews/testimonials_01.jpg",
     rating: 5,
-    text: "AgroVentures has been our trusted partner for over 5 years. Their spices are of exceptional quality and the delivery is always on time. Highly recommended for any import business.",
+    text: "They gave me a far greater service than I had expected, as well as paying the returns on time, so I'm extremely happy with Agro Ventures Plantations.",
   },
   {
     id: 2,
-    name: "Sarah Mitchell",
-    position: "Procurement Head",
-    company: "Organic Foods UK",
-    image:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80",
+    name: "Mr. Withthamperuma Arachchige Yasendra",
+    image: "/src/assets/reviews/testimonials_02.jpg",
     rating: 5,
-    text: "The quality of basmati rice we receive from AgroVentures is unmatched. Their attention to quality control and documentation makes importing hassle-free.",
+    text: "I got my first profit payment right on time from Agro Ventures Plantations. Looking forward to the future to come. Thank you Agro Ventures!",
   },
   {
     id: 3,
-    name: "Michael Chen",
-    position: "CEO",
-    company: "Asian Spice Imports, Singapore",
-    image:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=80",
+    name: "Mr. Malyoganam Ilayarajah",
+    image: "/src/assets/reviews/testimonials_03.jpg",
     rating: 5,
-    text: "Working with AgroVentures has transformed our supply chain. Their team is responsive, professional, and always delivers what they promise.",
+    text: "I receive the monthly payments on time, and I'm happy to say that this is a great investment choice for anyone.",
   },
   {
     id: 4,
-    name: "Elena Rodriguez",
-    position: "Operations Director",
-    company: "Sabores del Mundo, Spain",
-    image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80",
+    name: "Mr. G N Udaya Kumara",
+    image: "/src/assets/reviews/testimonials_04.jpg",
     rating: 5,
-    text: "Exceptional service and premium quality products. AgroVentures understands the European market requirements perfectly.",
+    text: "Agro Ventures is a company you can trust for your investments. Great service and timely returns.",
   },
+  {
+    id: 5,
+    name: "Mr. Manjula Wimalasena",
+    image: "/src/assets/reviews/testimonials_05.jpg",
+    rating: 5,
+    text: "I live in South Korea and found Agro Ventures to be a reliable investment partner. Highly recommended.",
+  },
+];
+
+export const companies = [
+  { name: "plantations", img: "src/assets/companies/1.png" },
+  { name: "development", img: "src/assets/companies/2.png" },
+  { name: "hasara", img: "src/assets/companies/3.jpeg" },
+  { name: "exports", img: "src/assets/companies/4.png" },
+  { name: "vanilla shop", img: "src/assets/companies/5.png" },
+];
+
+export const socialLinks = [
+  { icon: Facebook, href: "https://www.facebook.com/agroventuresplantations/" },
+  { icon: Twitter, href: "https://twitter.com/agroventuresltd" },
+  {
+    icon: Instagram,
+    href: "https://www.instagram.com/agroventuresplantations/",
+  },
+  {
+    icon: Youtube,
+    href: "https://www.youtube.com/channel/UCbT0jr2Rj_fC0-WujlURKjA",
+  },
+];
+
+export const slides = [
+  {
+    title: "Premium Agricultural",
+    subtitle: "Exports Worldwide",
+    description:
+      "Delivering the finest quality spices, grains, and agricultural products from India to global markets.",
+    image:
+      "/src/assets/hero/hero1.jpg",
+  },
+  // {
+  //   title: "From Farm to",
+  //   subtitle: "Your Doorstep",
+  //   description: "Connecting farmers with international buyers through sustainable and ethical practices.",
+  //   image: "https://images.unsplash.com/photo-1682482001313-0581da8e2b58?q=80&w=927&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  // },
+  {
+    title: "Quality Certified",
+    subtitle: "Global Standards",
+    description:
+      "ISO certified export processes ensuring premium quality in every shipment.",
+    image:
+      "/src/assets/hero/hero2.avif",
+  },
+];
+
+export const features = [
+  { icon: Award, text: "ISO Certified" },
+  { icon: Truck, text: "Fast Delivery" },
+];
+
+export const values = [
+  {
+    icon: Target,
+    title: "Our Mission",
+    description:
+      "To bridge the gap between Indian farmers and global markets, ensuring fair trade and premium quality.",
+  },
+  {
+    icon: Users,
+    title: "Our Vision",
+    description:
+      "To become the most trusted agricultural export company, known for quality, reliability, and sustainability.",
+  },
+  {
+    icon: Leaf,
+    title: "Our Values",
+    description:
+      "Integrity, sustainability, and excellence in every grain we export and every relationship we build.",
+  },
+];
+
+export const highlights = [
+  "Best Quality Productions",
+  "Best Quality Vanilla",
+  "Natural Healthy Products",
 ];
