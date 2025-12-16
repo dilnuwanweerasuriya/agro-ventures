@@ -17,6 +17,7 @@ import {
   Leaf,
 } from "lucide-react";
 
+// Navigation Links
 export const navLinks = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
@@ -36,44 +37,128 @@ export const navLinks = [
   { name: "Contact", href: "/contact" },
 ];
 
-// export const products = [
-//   { name: "Vanilla-Pods-Extraction-Grade", href: "#" },
-//   { name: "Vanilla-Pods-Gourmet-Grade", href: "#" },
-//   { name: "Vanilla Seeds", href: "#" },
-//   { name: "Vanilla Extracts", href: "#" },
-//   { name: "Vanilla Powder", href: "#" }
-// ];
-
+// Products
 export const products = [
   {
     id: 1,
-    name: "Vanilla-Pods-Extraction-Grade",
-    category: "spices",
+    name: "Non-Alcoholic Vanilla Extract",
     image:
       "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?w=600&q=80",
-    description: "Premium quality turmeric with high curcumin content",
-    rating: 4.9,
-    origin: "Kerala, India",
+    description: (
+      <>
+        <p className="text-sm text-justify">
+          Indulge in the exquisite essence of{" "}
+          <span className="font-semibold">
+            pure, hand-selected Sri Lankan vanilla beans
+          </span>
+          , meticulously extracted through a gentle alcohol-free process.
+          Infused in{" "}
+          <span className="font-semibold">
+            plant-based vegetable glycerin and purified water
+          </span>
+          , this extract captures the rich, creamy aroma and delicate floral
+          notes of authentic vanilla in its most natural form. <br /> Free from
+          artificial additives, sugars, and preservatives, our{" "}
+          <span className="font-semibold">
+            plant-based vegetable glycerin and purified water
+          </span>
+          is the perfect choice for{" "}
+          <span className="font-semibold">
+            gourmet baking, fine beverages, confectionery, skincare, and
+            aromatherapy formulations
+          </span>{" "}
+          that demand uncompromising purity and flavor excellence. Experience
+          the{" "}
+          <span className="font-semibold">
+            true taste of nature — crafted to perfection in Sri Lanka
+          </span>
+          .
+        </p>
+      </>
+    ),
+    ingredients: (
+      <ul>
+        <li>Purified Water</li>
+        <li>Vegetable Glycerin (Plant-Based)</li>
+        <li>Natural Vanilla Bean Extractives</li>
+        <p>(No Alcohol, No Artificial Flavours, No Preservatives)</p>
+      </ul>
+    ),
   },
   {
     id: 2,
-    name: "Basmati Rice",
-    category: "grains",
+    name: "Alcoholic Vanilla Extract",
     image:
       "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=600&q=80",
-    description: "Extra long grain premium basmati rice",
-    rating: 4.8,
-    origin: "Punjab, India",
+    description: (
+      <>
+        <p className="text-sm text-justify">
+          Experience the rich, complex aroma of{" "}
+          <span className="font-semibold">
+            hand-selected Sri Lankan vanilla beans
+          </span>
+          carefully macerated in{" "}
+          <span className="font-semibold">high-quality food-grade alcohol</span>
+          to create a truly authentic vanilla extract. This classic extraction
+          method ensures maximum flavor intensity, capturing the deep, sweet,
+          and creamy notes that only natural vanilla can offer.
+          <br /> Perfect for
+          <span className="font-semibold">
+            gourmet baking, confections, beverages, and culinary creations,
+          </span>
+          our{" "}
+          <span className="font-semibold">
+            Premium Alcoholic Vanilla Extract
+          </span>{" "}
+          brings the elegance and depth of real vanilla to every recipe. Crafted
+          with care, it represents the finest standards of flavor and purity.
+        </p>
+      </>
+    ),
+    ingredients: (
+      <ul>
+        <li>Food-Grade Alcohol</li>
+        <li>Natural Vanilla Bean Extractives</li>
+        <li>Purified Water (optional, to adjust strength)</li>
+      </ul>
+    ),
   },
   {
     id: 3,
-    name: "Red Chili Powder",
-    category: "spices",
+    name: "Natural Vanilla Paste",
     image:
       "https://images.unsplash.com/photo-1599909533681-74570b4f8a66?w=600&q=80",
-    description: "Vibrant red chili with perfect heat level",
-    rating: 4.7,
-    origin: "Guntur, India",
+    description: (
+      <>
+        <p className="text-sm text-justify">
+          Experience the rich, full-bodied flavor of{" "}
+          <span className="font-semibold">
+            hand-harvested Sri Lankan vanilla beans
+          </span>{" "}
+          in a convenient, ready-to-use paste. Our{" "}
+          <span className="font-semibold">Natural Vanilla Paste</span> combines{" "}
+          <span className="font-semibold">
+            finely ground vanilla seeds, natural vanilla extract, and a smooth,
+            food-grade binder
+          </span>{" "}
+          to deliver the true essence of vanilla in every spoonful. Perfect for{" "}
+          <span className="font-semibold">
+            gourmet baking, desserts, sauces, ice creams, and specialty
+            beverages
+          </span>
+          , this paste ensures consistent flavor, beautiful specks of real
+          vanilla, and the aromatic richness of authentic beans — without any
+          artificial additives.
+        </p>
+      </>
+    ),
+    ingredients: (
+      <ul>
+        <li>Natural Vanilla Beans</li>
+        <li>Natural Vanilla Extract (Alcohol or Glycerin-Based, depending on formulation)</li>
+        <li>Natural Thickening/Binder (e.g., Gum Acacia or Corn Syrup)</li>
+      </ul>
+    ),
   },
   {
     id: 4,
@@ -240,8 +325,7 @@ export const slides = [
     subtitle: "Exports Worldwide",
     description:
       "Delivering the finest quality spices, grains, and agricultural products from India to global markets.",
-    image:
-      "/src/assets/hero/hero1.jpg",
+    image: "/src/assets/hero/hero1.jpg",
   },
   // {
   //   title: "From Farm to",
@@ -254,8 +338,7 @@ export const slides = [
     subtitle: "Global Standards",
     description:
       "ISO certified export processes ensuring premium quality in every shipment.",
-    image:
-      "/src/assets/hero/hero2.avif",
+    image: "/src/assets/hero/hero2.avif",
   },
 ];
 
