@@ -37,8 +37,8 @@ const ProcessHero = () => {
           alt="Vanilla Beans"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-gray-900/95 via-gray-900/85 to-gray-900/70" />
-        <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-gray-900/40" />
+        <div className="absolute inset-0 bg-linear-to-r from-gray-900/95 via-gray-900/85 to-gray-900/70" />
+        <div className="absolute inset-0 bg-linear-to-t from-gray-900 via-transparent to-gray-900/40" />
       </div>
 
       {/* Animated Background Elements */}
@@ -142,7 +142,7 @@ const ProcessHero = () => {
                   alt="Vanilla Beans"
                   className="w-full h-80 object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-gray-900/60 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-gray-900/60 to-transparent" />
                 
                 {/* Current Step Badge */}
                 <div className="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-sm rounded-xl p-4">

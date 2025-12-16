@@ -83,7 +83,7 @@ const ProcessSorting = () => {
   ]
 
   return (
-    <section id="sorting" className="section-padding bg-gradient-to-b from-amber-50 to-white relative overflow-hidden">
+    <section id="sorting" className="section-padding bg-linear-to-b from-amber-50 to-white relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute top-20 right-10 w-72 h-72 bg-amber-100/50 rounded-full blur-3xl" />
       <div className="absolute bottom-20 left-10 w-80 h-80 bg-yellow-100/50 rounded-full blur-3xl" />
@@ -133,9 +133,9 @@ const ProcessSorting = () => {
               >
                 {/* Header */}
                 <div className={`p-6 text-white ${
-                  grade.color === 'amber' ? 'bg-gradient-to-r from-amber-500 to-amber-600' :
-                  grade.color === 'yellow' ? 'bg-gradient-to-r from-yellow-500 to-yellow-600' :
-                  'bg-gradient-to-r from-gray-500 to-gray-600'
+                  grade.color === 'amber' ? 'bg-linear-to-r from-amber-500 to-amber-600' :
+                  grade.color === 'yellow' ? 'bg-linear-to-r from-yellow-500 to-yellow-600' :
+                  'bg-linear-to-r from-gray-500 to-gray-600'
                 }`}>
                   <div className="flex items-center justify-between">
                     <div>
@@ -216,7 +216,7 @@ const ProcessSorting = () => {
             <div className="grid sm:grid-cols-2 gap-3">
               {qualityChecks.map((check, index) => (
                 <div key={index} className="flex items-center space-x-3 p-3 bg-gray-50 rounded-xl">
-                  <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-green-500 shrink-0" />
                   <span className="text-gray-700 text-sm">{check}</span>
                 </div>
               ))}
@@ -224,7 +224,7 @@ const ProcessSorting = () => {
           </div>
 
           {/* Packaging */}
-          <div className="bg-gradient-to-br from-amber-500 to-amber-600 rounded-2xl p-8 text-white relative overflow-hidden">
+          <div className="bg-linear-to-br from-amber-500 to-amber-600 rounded-2xl p-8 text-white relative overflow-hidden">
             <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-2xl" />
             
             <div className="relative">
@@ -251,7 +251,7 @@ const ProcessSorting = () => {
                     "Proper labeling and documentation"
                   ].map((item, index) => (
                     <li key={index} className="flex items-center space-x-2">
-                      <CheckCircle className="w-5 h-5 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 shrink-0" />
                       <span>{item}</span>
                     </li>
                   ))}

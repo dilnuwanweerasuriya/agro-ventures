@@ -165,7 +165,7 @@ const ProcessOverview = () => {
               onMouseLeave={() => setHoveredStep(null)}
             >
               {/* Step Number */}
-              <div className={`absolute -top-4 left-1/2 -translate-x-1/2 w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold bg-gradient-to-r ${getColorClasses(step.color, 'gradient')} shadow-lg ${getColorClasses(step.color, 'shadow')}`}>
+              <div className={`absolute -top-4 left-1/2 -translate-x-1/2 w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold bg-linear-to-r ${getColorClasses(step.color, 'gradient')} shadow-lg ${getColorClasses(step.color, 'shadow')}`}>
                 {index + 1}
               </div>
 
@@ -204,7 +204,7 @@ const ProcessOverview = () => {
         </div>
 
         {/* Process Summary */}
-        <div className="bg-gradient-to-r from-amber-500 to-amber-600 rounded-3xl p-8 md:p-12 relative overflow-hidden">
+        <div className="bg-linear-to-r from-amber-500 to-amber-600 rounded-3xl p-8 md:p-12 relative overflow-hidden">
           {/* Background Pattern */}
           <div className="absolute inset-0 opacity-10">
             <div className="absolute inset-0" style={{

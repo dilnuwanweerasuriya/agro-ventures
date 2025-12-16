@@ -43,9 +43,9 @@ const ProcessSourcing = () => {
   ]
 
   return (
-    <section id="sourcing" className="section-padding bg-gradient-to-b from-green-50 to-white relative overflow-hidden">
+    <section id="sourcing" className="section-padding bg-linear-to-b from-green-50 to-white relative overflow-hidden">
       {/* Background Elements */}
-      <div className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-green-100/30 to-transparent" />
+      <div className="absolute top-0 left-0 w-1/2 h-full bg-linear-to-r from-green-100/30 to-transparent" />
       <div className="absolute top-20 right-20 w-72 h-72 bg-green-200/30 rounded-full blur-3xl" />
 
       <div className="container-custom relative">
@@ -89,15 +89,15 @@ const ProcessSourcing = () => {
               <img
                 src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=80"
                 alt="Vanilla Sourcing"
-                className="w-full h-[500px] object-cover"
+                className="w-full h-125 object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-green-900/40 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-green-900/40 to-transparent" />
             </div>
             
             {/* Info Badge */}
             <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl p-6 shadow-xl border border-gray-100 max-w-xs">
               <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center shrink-0">
                   <Leaf className="w-6 h-6 text-green-600" />
                 </div>
                 <div>
@@ -142,7 +142,7 @@ const ProcessSourcing = () => {
                   "Sustainable practices support local communities"
                 ].map((point, index) => (
                   <div key={index} className="flex items-start space-x-3">
-                    <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
                     <span className="text-gray-700">{point}</span>
                   </div>
                 ))}

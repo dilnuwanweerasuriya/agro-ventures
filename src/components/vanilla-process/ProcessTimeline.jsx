@@ -97,7 +97,7 @@ const ProcessTimeline = () => {
         {/* Timeline */}
         <div className="relative">
           {/* Connection Line */}
-          <div className="absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-green-500 via-yellow-500 via-blue-500 via-purple-500 to-amber-500 -translate-y-1/2 hidden lg:block" />
+          <div className="absolute top-1/2 left-0 right-0 h-1 bg-linear-to-r from-green-500 via-yellow-500 to-amber-500 -translate-y-1/2 hidden lg:block" />
           
           <div className="grid lg:grid-cols-5 gap-6">
             {timeline.map((item, index) => (

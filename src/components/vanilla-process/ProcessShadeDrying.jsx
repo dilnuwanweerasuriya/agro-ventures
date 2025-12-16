@@ -43,7 +43,7 @@ const ProcessShadeDrying = () => {
   ]
 
   return (
-    <section id="shade-drying" className="section-padding bg-gradient-to-b from-blue-50 to-white relative overflow-hidden">
+    <section id="shade-drying" className="section-padding bg-linear-to-b from-blue-50 to-white relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-blue-100/50 rounded-full blur-3xl" />
       <div className="absolute bottom-20 right-10 w-80 h-80 bg-indigo-100/50 rounded-full blur-3xl" />
@@ -126,9 +126,9 @@ const ProcessShadeDrying = () => {
               <img
                 src="https://images.unsplash.com/photo-1595855759920-86582396756a?w=800&q=80"
                 alt="Shade Drying"
-                className="w-full h-[450px] object-cover"
+                className="w-full h-112.5 object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-blue-900/40 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-blue-900/40 to-transparent" />
             </div>
 
             {/* Progress Badge */}
@@ -145,7 +145,7 @@ const ProcessShadeDrying = () => {
               </div>
               {/* Progress Bar */}
               <div className="mt-4 h-2 bg-gray-200 rounded-full overflow-hidden">
-                <div className="h-full bg-gradient-to-r from-blue-500 to-blue-600 rounded-full" style={{ width: '50%' }} />
+                <div className="h-full bg-linear-to-r from-blue-500 to-blue-600 rounded-full" style={{ width: '50%' }} />
               </div>
             </div>
           </div>

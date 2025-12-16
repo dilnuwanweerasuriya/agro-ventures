@@ -55,7 +55,7 @@ const ProcessSunDrying = () => {
     <section id="sun-drying" className="section-padding bg-white relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-pattern-dots opacity-30" />
-      <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-yellow-50/50 to-transparent" />
+      <div className="absolute top-0 right-0 w-1/2 h-full bg-linear-to-l from-yellow-50/50 to-transparent" />
 
       <div className="container-custom relative">
         {/* Section Header */}
@@ -95,10 +95,10 @@ const ProcessSunDrying = () => {
             {steps.map((item, index) => (
               <div key={index} className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-yellow-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-yellow-100 rounded-xl flex items-center justify-center shrink-0">
                     <span className="text-yellow-600 font-bold">{item.step}</span>
                   </div>
-                  <div className="flex-grow">
+                  <div className="grow">
                     <div className="flex flex-wrap items-center gap-3 mb-2">
                       <h4 className="font-bold text-gray-900">{item.title}</h4>
                       <div className="flex space-x-2">
@@ -131,9 +131,9 @@ const ProcessSunDrying = () => {
               <img
                 src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80"
                 alt="Sun Drying Vanilla"
-                className="w-full h-[350px] object-cover"
+                className="w-full h-87.5 object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-yellow-900/50 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-yellow-900/50 to-transparent" />
               <div className="absolute bottom-6 left-6 right-6">
                 <div className="bg-white/90 backdrop-blur-sm rounded-xl p-4">
                   <div className="flex items-center space-x-3">
@@ -157,7 +157,7 @@ const ProcessSunDrying = () => {
                 <ul className="space-y-2">
                   {dosDonts.dos.map((item, index) => (
                     <li key={index} className="text-green-700 text-sm flex items-start">
-                      <span className="w-1.5 h-1.5 bg-green-500 rounded-full mt-1.5 mr-2 flex-shrink-0" />
+                      <span className="w-1.5 h-1.5 bg-green-500 rounded-full mt-1.5 mr-2 shrink-0" />
                       {item}
                     </li>
                   ))}
@@ -171,7 +171,7 @@ const ProcessSunDrying = () => {
                 <ul className="space-y-2">
                   {dosDonts.donts.map((item, index) => (
                     <li key={index} className="text-red-700 text-sm flex items-start">
-                      <span className="w-1.5 h-1.5 bg-red-500 rounded-full mt-1.5 mr-2 flex-shrink-0" />
+                      <span className="w-1.5 h-1.5 bg-red-500 rounded-full mt-1.5 mr-2 shrink-0" />
                       {item}
                     </li>
                   ))}
@@ -182,7 +182,7 @@ const ProcessSunDrying = () => {
         </div>
 
         {/* Scientific Explanation */}
-        <div className="bg-gradient-to-r from-yellow-500 to-orange-500 rounded-3xl p-8 md:p-12 text-white relative overflow-hidden">
+        <div className="bg-linear-to-r from-yellow-500 to-orange-500 rounded-3xl p-8 md:p-12 text-white relative overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl" />
           
           <div className="relative grid md:grid-cols-3 gap-8">
