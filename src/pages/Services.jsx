@@ -9,6 +9,7 @@ import ServiceContractFarming from '../components/services/ServiceContractFarmin
 import ServicesProcess from '../components/services/ServiceProcess'
 import Footer from '../components/Footer'
 import useSEO from '../hooks/useSEO'
+import ServicesRoadmap from '../components/services/ServicesRoadmap'
 
 const ServicesPage = () => {
   const url = window.location.href;
@@ -22,15 +23,16 @@ const ServicesPage = () => {
 
   return (
     <div className="overflow-hidden">
-      <Navbar />
+      <ServicesRoadmap />
+      {/* <Navbar />
       <ServicesHero />
       <ServicesOverview />
       <ServiceAwareness />
       <ServicePlantingMaterial />
       <ServiceVanillaCultivation />
-      <ServiceContractFarming />
+      <ServiceContractFarming /> */}
       {/* <ServicesProcess /> */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

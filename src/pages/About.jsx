@@ -11,6 +11,7 @@ import Certifications from '../components/about/Certifications'
 import CTA from '../components/home/CTA'
 import Footer from '../components/Footer'
 import useSEO from '../hooks/useSEO'
+import CEOAndTeam from '../components/about/CEOandTeam'
 
 const About = () => {
   const url = window.location.href;
@@ -31,6 +32,7 @@ const About = () => {
       {/* <Timeline /> */}
       {/* <Plantations /> */}
       <Projects />
+      <CEOAndTeam />
       {/* <Team /> */}
       <Certifications />
       {/* <CTA /> */}

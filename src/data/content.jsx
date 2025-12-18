@@ -684,23 +684,16 @@ export const values = [
     icon: Eye,
     title: "Our Vision",
     description:
-      "To be the world's most trusted source of premium Indian agricultural products, setting global standards in quality, sustainability, and ethical trade.",
+      "To be the world's most trusted source of premium Sri Lanka vanilla products, setting global standards in quality, sustainability, and ethical trade.",
     color: "primary",
   },
   {
     icon: Target,
     title: "Our Mission",
     description:
-      "To bridge Indian farmers with global markets through transparent partnerships, innovative solutions, and unwavering commitment to excellence in every grain we export.",
+      "To bridge farmers with global markets through transparent partnerships, innovative solutions, and unwavering commitment to excellence in every grain we export.",
     color: "secondary",
-  },
-  {
-    icon: Heart,
-    title: "Our Purpose",
-    description:
-      "To create lasting value for farmers, partners, and communities while preserving India's agricultural heritage for future generations through sustainable practices.",
-    color: "earth",
-  },
+  }
 ];
 
 // Home Highlights
