@@ -1,41 +1,8 @@
 import React from 'react'
 import { Target, Eye, Heart, Leaf, Globe, Shield, Sparkles, TrendingUp } from 'lucide-react'
-import { values } from '../../data/content'
+import { values, coreValues } from '../../data/content'
 
 const Vision = () => {
-
-  const coreValues = [
-    {
-      icon: Shield,
-      title: "Integrity",
-      description: "Honest dealings in every transaction"
-    },
-    {
-      icon: Leaf,
-      title: "Sustainability",
-      description: "Eco-friendly practices at every step"
-    },
-    {
-      icon: Sparkles,
-      title: "Excellence",
-      description: "Premium quality without compromise"
-    },
-    {
-      icon: Globe,
-      title: "Global Reach",
-      description: "Connecting continents with quality"
-    },
-    {
-      icon: TrendingUp,
-      title: "Innovation",
-      description: "Modern solutions for age-old traditions"
-    },
-    {
-      icon: Heart,
-      title: "Care",
-      description: "For farmers, customers & planet"
-    }
-  ]
 
   return (
     <section className="section-padding bg-linear-to-b from-gray-50 to-white relative overflow-hidden">
@@ -65,18 +32,17 @@ const Vision = () => {
         {/* Vision/Mission/Purpose Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
           {values.map((card, index) => (
-            <div 
+            <div
               key={index}
               className="group relative bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 card-hover"
             >
               {/* Image Header */}
               <div className="relative h-48 overflow-hidden">
-                <div className={`absolute inset-0 ${
-                  card.color === 'primary' ? 'bg-primary-600/80' :
+                <div className={`absolute inset-0 ${card.color === 'primary' ? 'bg-primary-600/80' :
                   card.color === 'secondary' ? 'bg-secondary-600/80' :
-                  'bg-earth-600/80'
-                }`} />
-                
+                    'bg-earth-600/80'
+                  }`} />
+
                 {/* Icon */}
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                   <div className="w-20 h-20 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center border border-white/30">
@@ -92,11 +58,10 @@ const Vision = () => {
               </div>
 
               {/* Bottom Accent */}
-              <div className={`h-1 ${
-                card.color === 'primary' ? 'bg-primary-500' :
+              <div className={`h-1 ${card.color === 'primary' ? 'bg-primary-500' :
                 card.color === 'secondary' ? 'bg-secondary-500' :
-                'bg-earth-500'
-              }`} />
+                  'bg-earth-500'
+                }`} />
             </div>
           ))}
         </div>
@@ -120,24 +85,44 @@ const Vision = () => {
               </p>
             </div>
 
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6"> */}
+            <div
+              className={`grid grid-cols-1 gap-6 ${coreValues.length === 2
+                  ? 'md:grid-cols-2'
+                  : coreValues.length === 3
+                    ? 'md:grid-cols-2 lg:grid-cols-3'
+                    : coreValues.length === 4
+                      ? 'md:grid-cols-2 lg:grid-cols-4'
+                      : ''
+                }`}
+            >
               {coreValues.map((value, index) => (
-                <div 
+                <div
                   key={index}
-                  className="group bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 hover:bg-white/10 hover:border-primary-500/50 transition-all duration-300"
+                  className="group bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 
+                 hover:bg-white/10 hover:border-primary-500/50 transition-all duration-300"
                 >
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-primary-500/20 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-primary-500 transition-colors duration-300">
-                      <value.icon className="w-6 h-6 text-primary-400 group-hover:text-white transition-colors duration-300" />
+                  <div className="flex flex-col items-center text-center gap-4">
+                    {/* Icon */}
+                    <div className="w-14 h-14 bg-primary-500/20 rounded-xl flex items-center justify-center 
+                        group-hover:bg-primary-500 transition-colors duration-300">
+                      <value.icon className="w-7 h-7 text-primary-400 group-hover:text-white transition-colors duration-300" />
                     </div>
-                    <div>
-                      <h4 className="text-lg font-bold text-white mb-1">{value.title}</h4>
-                      <p className="text-gray-400 text-sm">{value.description}</p>
-                    </div>
+
+                    {/* Title */}
+                    <h4 className="text-lg font-bold text-white">
+                      {value.title}
+                    </h4>
+
+                    {/* Description */}
+                    <p className="text-gray-400 text-sm leading-relaxed">
+                      {value.description}
+                    </p>
                   </div>
                 </div>
               ))}
             </div>
+
           </div>
         </div>
       </div>

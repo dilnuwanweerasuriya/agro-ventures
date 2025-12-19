@@ -31,8 +31,8 @@ const About = () => {
       <Vision />
       {/* <Timeline /> */}
       {/* <Plantations /> */}
-      <Projects />
       <CEOAndTeam />
+      <Projects />
       {/* <Team /> */}
       <Certifications />
       {/* <CTA /> */}

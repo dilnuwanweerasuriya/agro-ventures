@@ -23,16 +23,17 @@ const ServicesPage = () => {
 
   return (
     <div className="overflow-hidden">
-      <ServicesRoadmap />
-      {/* <Navbar />
+
+      <Navbar />
       <ServicesHero />
-      <ServicesOverview />
-      <ServiceAwareness />
+      {/* <ServicesOverview /> */}
+      <ServicesRoadmap />
+      {/* <ServiceAwareness />
       <ServicePlantingMaterial />
       <ServiceVanillaCultivation />
       <ServiceContractFarming /> */}
       {/* <ServicesProcess /> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

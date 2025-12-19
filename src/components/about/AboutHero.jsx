@@ -1,5 +1,6 @@
 import React from "react";
-import { ChevronDown, Leaf, Award, Globe, Users, Link } from "lucide-react";
+import { ChevronDown, Leaf, Award, Globe, Users } from "lucide-react";
+import { Link } from 'react-router-dom'
 import { establishedYear } from "../../data/content";
 
 const AboutHero = () => {
@@ -23,7 +24,7 @@ const AboutHero = () => {
           {/* Breadcrumb */}
           <nav className="flex justify-center items-center space-x-2 text-sm text-white/60 mb-8">
             <Link to="/" className="hover:text-white transition-colors">
-              Home
+              <span>Home</span>
             </Link>
             <span>/</span>
             <span className="text-primary-400">About Us</span>

@@ -31,14 +31,15 @@ const About = () => {
                 <span className="block gradient-text">Exporting Trust</span>
               </h2>
               <p className="text-lg text-gray-600 text-justify leading-relaxed">
-                Agro Ventures Plantations (Pvt) Ltd has the drive, knowledge,
+                {/* Agro Ventures Plantations (Pvt) Ltd has the drive, knowledge,
                 and experience to make the most of Sri Lanka's great climate and
                 soil for growing a variety of crops and commodities. We handle
                 everything from planting to harvesting and focus on providing
                 sustainable agricultural services for our clients. Due to its
                 numerous uses and great demand in the market, vanilla frequently
                 refers to as "green gold" and has even been priced higher than
-                silver!
+                silver! */}
+                Agro Ventures Exports is a Sri Lanka–based exporting company specializing in premium vanilla products. Rooted in the island’s rich agricultural heritage, the company focuses on sourcing, processing, and exporting high-quality Sri Lankan vanilla to international markets, delivering natural flavor solutions that meet global quality standards.
               </p>
             </div>
 

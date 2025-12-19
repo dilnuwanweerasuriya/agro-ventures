@@ -4,56 +4,56 @@ import { Calendar, Award, Globe, Users, Factory, Leaf, TrendingUp, Star } from '
 const Timeline = () => {
   const [activeYear, setActiveYear] = useState(2024)
 
-  const milestones = [
-    {
-      year: 2009,
-      title: "The Beginning",
-      description: "AgroVentures Exports was founded in Mumbai with a vision to connect Indian farmers with global markets.",
-      icon: Leaf,
-      image: "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=400&q=80",
-      achievements: ["Founded with 5 team members", "First export to UAE", "Partnership with 50 farmers"]
-    },
-    {
-      year: 2012,
-      title: "Growing Roots",
-      description: "Expanded operations to 10 states and established our first processing facility.",
-      icon: Factory,
-      image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400&q=80",
-      achievements: ["10,000 sq ft processing plant", "ISO 9001 certification", "200+ farmer network"]
-    },
-    {
-      year: 2015,
-      title: "Global Expansion",
-      description: "Entered European and American markets, becoming a preferred supplier for major retailers.",
-      icon: Globe,
-      image: "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=400&q=80",
-      achievements: ["Presence in 25 countries", "USDA Organic certification", "Annual revenue ₹50 Cr"]
-    },
-    {
-      year: 2018,
-      title: "Industry Recognition",
-      description: "Received multiple awards for quality and sustainability practices in agricultural exports.",
-      icon: Award,
-      image: "https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=400&q=80",
-      achievements: ["APEDA Export Excellence Award", "500+ products range", "1000+ farmer partners"]
-    },
-    {
-      year: 2021,
-      title: "Sustainable Future",
-      description: "Launched organic farming initiative and achieved carbon-neutral operations status.",
-      icon: TrendingUp,
-      image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&q=80",
-      achievements: ["Carbon neutral certified", "100% traceable supply chain", "50+ countries served"]
-    },
-    {
-      year: 2024,
-      title: "New Horizons",
-      description: "Expanding into new product categories and markets while strengthening farmer relationships.",
-      icon: Star,
-      image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=400&q=80",
-      achievements: ["15+ years milestone", "Industry 4.0 adoption", "Vision 2030 initiative"]
-    }
-  ]
+  // const milestones = [
+  //   {
+  //     year: 2009,
+  //     title: "The Beginning",
+  //     description: "AgroVentures Exports was founded in Mumbai with a vision to connect Sri Lanka farmers with global markets.",
+  //     icon: Leaf,
+  //     image: "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=400&q=80",
+  //     achievements: ["Founded with 5 team members", "First export to UAE", "Partnership with 50 farmers"]
+  //   },
+  //   {
+  //     year: 2012,
+  //     title: "Growing Roots",
+  //     description: "Expanded operations to 10 states and established our first processing facility.",
+  //     icon: Factory,
+  //     image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400&q=80",
+  //     achievements: ["10,000 sq ft processing plant", "ISO 9001 certification", "200+ farmer network"]
+  //   },
+  //   {
+  //     year: 2015,
+  //     title: "Global Expansion",
+  //     description: "Entered European and American markets, becoming a preferred supplier for major retailers.",
+  //     icon: Globe,
+  //     image: "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=400&q=80",
+  //     achievements: ["Presence in 25 countries", "USDA Organic certification", "Annual revenue ₹50 Cr"]
+  //   },
+  //   {
+  //     year: 2018,
+  //     title: "Industry Recognition",
+  //     description: "Received multiple awards for quality and sustainability practices in agricultural exports.",
+  //     icon: Award,
+  //     image: "https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=400&q=80",
+  //     achievements: ["APEDA Export Excellence Award", "500+ products range", "1000+ farmer partners"]
+  //   },
+  //   {
+  //     year: 2021,
+  //     title: "Sustainable Future",
+  //     description: "Launched organic farming initiative and achieved carbon-neutral operations status.",
+  //     icon: TrendingUp,
+  //     image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&q=80",
+  //     achievements: ["Carbon neutral certified", "100% traceable supply chain", "50+ countries served"]
+  //   },
+  //   {
+  //     year: 2024,
+  //     title: "New Horizons",
+  //     description: "Expanding into new product categories and markets while strengthening farmer relationships.",
+  //     icon: Star,
+  //     image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=400&q=80",
+  //     achievements: ["15+ years milestone", "Industry 4.0 adoption", "Vision 2030 initiative"]
+  //   }
+  // ]
 
   const activeMilestone = milestones.find(m => m.year === activeYear)
 

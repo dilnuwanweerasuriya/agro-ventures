@@ -1,9 +1,5 @@
 import React from "react";
 import {
-  Sparkles,
-  Leaf,
-  Users,
-  FileCheck,
   ChevronDown
 } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -59,7 +55,7 @@ const ServicesHero = () => {
 
           {/* CTA Buttons */}
           <div className="flex justify-center flex-wrap gap-4 mb-14">
-            <a href="#services" className="btn-primary group inline-flex items-center">
+            <a href="#services-roadmap" className="btn-primary group inline-flex items-center">
               Explore Services
               <ChevronDown className="w-5 h-5 ml-2 group-hover:translate-y-1 transition-transform" />
             </a>

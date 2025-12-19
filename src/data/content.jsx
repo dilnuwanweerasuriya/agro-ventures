@@ -23,12 +23,72 @@ import {
   Sun,
   Wind,
   Moon,
+  TrendingUp,
   Ruler,
   Droplets,
   Star,
+  Handshake,
+  SearchIcon
 } from "lucide-react";
 import { FaWrench } from "react-icons/fa";
 import { LuTrendingUp } from "react-icons/lu";
+import { TbScript } from 'react-icons/tb';
+import { PiPlant, PiShippingContainer } from 'react-icons/pi';
+
+// Color Pallette
+export const getColorClasses = (color, type) => {
+  const colors = {
+    emerald: {
+      bg: 'bg-emerald-500',
+      bgLight: 'bg-emerald-50',
+      border: 'border-emerald-500',
+      text: 'text-emerald-600',
+      gradient: 'from-emerald-400 to-emerald-600',
+      shadow: 'shadow-emerald-200'
+    },
+    blue: {
+      bg: 'bg-blue-500',
+      bgLight: 'bg-blue-50',
+      border: 'border-blue-500',
+      text: 'text-blue-600',
+      gradient: 'from-blue-400 to-blue-600',
+      shadow: 'shadow-blue-200'
+    },
+    amber: {
+      bg: 'bg-amber-500',
+      bgLight: 'bg-amber-50',
+      border: 'border-amber-500',
+      text: 'text-amber-600',
+      gradient: 'from-amber-400 to-amber-600',
+      shadow: 'shadow-amber-200'
+    },
+    orange: {
+      bg: 'bg-orange-500',
+      bgLight: 'bg-orange-50',
+      border: 'border-orange-500',
+      text: 'text-orange-600',
+      gradient: 'from-orange-400 to-orange-600',
+      shadow: 'shadow-orange-200'
+    },
+    purple: {
+      bg: 'bg-purple-500',
+      bgLight: 'bg-purple-50',
+      border: 'border-purple-500',
+      text: 'text-purple-600',
+      gradient: 'from-purple-400 to-purple-600',
+      shadow: 'shadow-purple-200'
+    },
+    rose: {
+      bg: 'bg-rose-500',
+      bgLight: 'bg-rose-50',
+      border: 'border-rose-500',
+      text: 'text-rose-600',
+      gradient: 'from-rose-400 to-rose-600',
+      shadow: 'shadow-rose-200'
+    }
+  };
+  return colors[color][type];
+};
 
 // Navigation Links
 export const navLinks = [
@@ -903,4 +963,208 @@ export const sortingCriteria = [
     title: "Aroma",
     description: "Evaluated for strength and quality of vanilla scent",
   },
+];
+
+// CEO Data
+export const ceoData = {
+  name: 'Mr. Nilanga Karunarathne',
+  designation: 'CEO/Founder',
+  image: '/src/assets/about/founder.png',
+  message: `"As the Founder of Agroventures Exports, I am filled with
+              immense pride and gratitude for the journey we have undertaken
+              together. From the very inception of this company, our vision was
+              clear - to revolutionize Sri Lanka's agricultural landscape by
+              fostering sustainability, empowering communities, and delivering
+              exceptional produce to the world.
+
+              Today, I stand humbled by the strides we have made and the impact
+              we have created. Our commitment to sustainable practices has not
+              only yielded premium crops but has also preserved the precious
+              environment that sustains us. We have demonstrated that
+              responsible agriculture can be a powerful force for positive
+              change, benefitting both farmers and consumers alike."`,
+  // experience: '15+ Years in Export Industry',
+  // education: 'MBA, International Business',
+  // achievements: [
+  //   'Great Place to Work (2025 Sept - 2026 Sept)',
+  //   'Best Exporter Award 2023',
+  //   'Sustainability Champion'
+  // ],
+  // social: {
+  //   linkedin: '#',
+  //   twitter: '#',
+  //   email: 'ceo@vanillaexports.com'
+  // }
+};
+
+// Team Members
+export const teamMembers = [
+  {
+    id: 1,
+    name: 'Marie Andriamihaja',
+    designation: 'Chief Operations Officer',
+    image: '/api/placeholder/300/300',
+    department: 'Operations',
+    description: 'Oversees all operational processes from sourcing to delivery',
+    experience: '12 years',
+    social: { linkedin: '#', email: 'marie@vanillaexports.com' }
+  },
+  {
+    id: 2,
+    name: 'Jean-Pierre Rakoto',
+    designation: 'Head of Quality Assurance',
+    image: '/api/placeholder/300/300',
+    department: 'Quality',
+    description: 'Ensures every vanilla bean meets our premium standards',
+    experience: '10 years',
+    social: { linkedin: '#', email: 'jp@vanillaexports.com' }
+  },
+  {
+    id: 3,
+    name: 'Sofia Ramanantsoa',
+    designation: 'Director of Client Relations',
+    image: '/api/placeholder/300/300',
+    department: 'Sales',
+    description: 'Builds lasting partnerships with global clients',
+    experience: '8 years',
+    social: { linkedin: '#', email: 'sofia@vanillaexports.com' }
+  },
+  {
+    id: 4,
+    name: 'David Randrianarisoa',
+    designation: 'Logistics Manager',
+    image: '/api/placeholder/300/300',
+    department: 'Logistics',
+    description: 'Manages international shipping and supply chain',
+    experience: '9 years',
+    social: { linkedin: '#', email: 'david@vanillaexports.com' }
+  }
+];
+
+// Core Values
+export const coreValues = [
+  {
+    icon: Shield,
+    title: "Integrity",
+    description:
+      "Honesty and transparency guide our actions as we build trust-based relationships with customers, partners, and stakeholders."
+  },
+  {
+    icon: Leaf,
+    title: "Sustainability",
+    description:
+      "We are committed to protecting the environment and conserving natural resources through responsible and sustainable agricultural practices."
+  },
+  {
+    icon: Sparkles,
+    title: "Excellence",
+    description:
+      "We uphold uncompromising standards of excellence across every stage of cultivation, processing, and product delivery."
+  },
+  {
+    icon: TrendingUp,
+    title: "Growth",
+    description:
+      "We empower local communities by creating sustainable livelihood opportunities and supporting long-term economic growth."
+  }
+];
+
+// Roadmap Steps
+export const roadmapSteps = [
+  {
+    id: 1,
+    phase: 'Discovery',
+    title: 'Finding Clients',
+    icon: SearchIcon,
+    color: 'emerald',
+    description: 'Identifying and connecting with potential buyers worldwide',
+    details: [
+      'Market research & analysis',
+      'B2B platform outreach',
+      'Trade show participation',
+      'Digital marketing campaigns',
+      'Referral network building'
+    ],
+    duration: '2-4 weeks'
+  },
+  {
+    id: 2,
+    phase: 'Negotiation',
+    title: 'Agreement & Contract',
+    icon: TbScript,
+    color: 'blue',
+    description: 'Establishing terms, pricing, and legal documentation',
+    details: [
+      'Price negotiation',
+      'Quality specifications',
+      'Payment terms setup',
+      'Contract drafting',
+      'Compliance verification'
+    ],
+    duration: '1-2 weeks'
+  },
+  {
+    id: 3,
+    phase: 'Sourcing',
+    title: 'Vanilla Procurement',
+    icon: PiPlant,
+    color: 'amber',
+    description: 'Sourcing premium vanilla from certified farmers',
+    details: [
+      'Farmer partnership coordination',
+      'Quality inspection',
+      'Grading & sorting',
+      'Organic certification check',
+      'Inventory management'
+    ],
+    duration: '2-3 weeks'
+  },
+  {
+    id: 4,
+    phase: 'Processing',
+    title: 'Curing & Packaging',
+    icon: Package,
+    color: 'orange',
+    description: 'Processing and preparing vanilla for export',
+    details: [
+      'Traditional curing process',
+      'Moisture content testing',
+      'Vacuum sealing',
+      'Custom packaging',
+      'Labeling & barcoding'
+    ],
+    duration: '1-2 weeks'
+  },
+  {
+    id: 5,
+    phase: 'Logistics',
+    title: 'Distribution & Shipping',
+    icon: PiShippingContainer,
+    color: 'purple',
+    description: 'Managing logistics and international shipping',
+    details: [
+      'Export documentation',
+      'Customs clearance',
+      'Freight forwarding',
+      'Cold chain management',
+      'Real-time tracking'
+    ],
+    duration: '2-6 weeks'
+  },
+  {
+    id: 6,
+    phase: 'Support',
+    title: 'After Service',
+    icon: Handshake,
+    color: 'rose',
+    description: 'Ongoing support and relationship management',
+    details: [
+      'Delivery confirmation',
+      'Quality feedback collection',
+      'Issue resolution',
+      'Reorder management',
+      'Long-term partnership building'
+    ],
+    duration: 'Ongoing'
+  }
 ];
