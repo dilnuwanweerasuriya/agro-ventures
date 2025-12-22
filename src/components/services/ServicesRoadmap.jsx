@@ -42,7 +42,7 @@ const CurvedServicesRoadmap = () => {
             return (
               <div
                 key={step.id}
-                className={`relative flex flex-col md:flex-row items-center justify-between gap-8 md:mb-[-40px] ${
+                className={`relative flex flex-col md:flex-row items-center justify-between gap-8 md:mb-10 ${
                   isEven ? 'md:flex-row' : 'md:flex-row-reverse'
                 }`}
               >
@@ -65,7 +65,7 @@ const CurvedServicesRoadmap = () => {
                       <ul className="space-y-3 pt-4 border-t border-stone-100">
                         {step.details.map((detail, idx) => (
                           <li key={idx} className="flex items-start gap-3 text-sm text-stone-600">
-                            <span className={`mt-1 w-1.5 h-1.5 rounded-full flex-shrink-0 ${getColorClasses(step.color, 'bg')}`} />
+                            <span className={`mt-1 w-1.5 h-1.5 rounded-full shrink-0 ${getColorClasses(step.color, 'bg')}`} />
                             {detail}
                           </li>
                         ))}
