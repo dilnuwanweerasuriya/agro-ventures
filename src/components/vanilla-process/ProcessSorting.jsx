@@ -53,7 +53,7 @@ const ProcessSorting = () => {
 
           <div className="rounded-3xl overflow-hidden shadow-2xl">
             <img
-              src="/src/assets/vanilla-process/sorting.png"
+              src="/images/vanilla-process/sorting.png"
               alt="Vanilla Sourcing"
               className="w-full h-full object-cover"
             />

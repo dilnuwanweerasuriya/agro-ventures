@@ -41,7 +41,7 @@ const ProcessShadeDrying = () => {
 
           <div className="rounded-3xl overflow-hidden shadow-2xl">
             <img
-              src="/src/assets/vanilla-process/shadedrying.png"
+              src="/images/vanilla-process/shadedrying.png"
               alt="Vanilla Sourcing"
               className="w-full h-full object-cover"
             />

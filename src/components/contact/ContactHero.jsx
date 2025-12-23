@@ -7,7 +7,7 @@ const ContactHero = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/src/assets/contact/hero.png"
+          src="/images/contact/hero.png"
           alt="Contact Us"
           className="w-full h-full object-cover"
         />

@@ -115,14 +115,14 @@ const ServicePlantingMaterial = () => {
               <div className="space-y-4">
                 <div className="rounded-2xl overflow-hidden shadow-xl h-48">
                   <img
-                    src="/src/assets/services/img3.jpg"
+                    src="/images/services/img3.jpg"
                     alt="Quality Planting 1"
                     className="w-full h-full object-cover object-top"
                   />
                 </div>
                 <div className="rounded-2xl overflow-hidden shadow-xl h-64">
                   <img
-                    src="/src/assets/services/img4.jpg"
+                    src="/images/services/img4.jpg"
                     alt="Quality Planting 2"
                     className="w-full h-full object-cover"
                   />
@@ -131,14 +131,14 @@ const ServicePlantingMaterial = () => {
               <div className="space-y-4 pt-8">
                 <div className="rounded-2xl overflow-hidden shadow-xl h-64">
                   <img
-                    src="/src/assets/services/img5.jpg"
+                    src="/images/services/img5.jpg"
                     alt="Quality Planting 3"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="rounded-2xl overflow-hidden shadow-xl h-48">
                   <img
-                    src="/src/assets/services/img6.jpg"
+                    src="/images/services/img6.jpg"
                     alt="Quality Planting 4"
                     className="w-full h-full object-cover"
                   />

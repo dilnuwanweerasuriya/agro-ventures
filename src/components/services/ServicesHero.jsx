@@ -10,7 +10,7 @@ const ServicesHero = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/src/assets/services/hero.jpg"
+          src="/images/services/hero.jpg"
           alt="Agricultural Services"
           className="w-full h-full object-cover"
         />

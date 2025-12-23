@@ -42,7 +42,7 @@ const ProcessSunDrying = () => {
         <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
           <div className="rounded-3xl overflow-hidden shadow-2xl">
             <img
-              src="/src/assets/vanilla-process/sundrying.png"
+              src="/images/vanilla-process/sundrying.png"
               alt="Vanilla Sourcing"
               className="w-full h-full object-cover"
             />

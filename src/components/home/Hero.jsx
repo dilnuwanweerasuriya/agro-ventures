@@ -100,7 +100,7 @@ const Hero = () => {
 
               <div className="absolute bottom-0 left-0 w-64 bg-white/10 backdrop-blur-lg rounded-3xl p-6 border border-white/20 animate-float" style={{ animationDelay: '1s' }}>
                 <img 
-                  src="/src/assets/images/pure_vanilla.jpg" 
+                  src="/images/images/pure_vanilla.jpg" 
                   alt="Vanilla"
                   className="w-full h-32 object-cover rounded-2xl mb-4"
                 />

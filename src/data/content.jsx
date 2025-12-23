@@ -109,7 +109,7 @@ export const products = [
   {
     id: 1,
     name: "Non-Alcoholic Vanilla Extract",
-    image: "/src/assets/products/NON_ALCOHOLIC_VANILLA_EXTRACT.jpg",
+    image: "/images/products/NON_ALCOHOLIC_VANILLA_EXTRACT.jpg",
     excerpt:
       "Indulge in the exquisite essence of pure, hand-selected Sri Lankan vanilla beans, meticulously extracted through a gentle alcohol-free process.",
     description: (
@@ -156,7 +156,7 @@ export const products = [
   {
     id: 2,
     name: "Alcoholic Vanilla Extract",
-    image: "/src/assets/products/ALCOHOLIC_VANILLA_EXTRACT.jpg",
+    image: "/images/products/ALCOHOLIC_VANILLA_EXTRACT.jpg",
     excerpt:
       "Experience the rich, complex aroma of hand-selected Sri Lankan vanilla beans carefully macerated in high-quality food-grade alcohol to create a truly authentic vanilla extract.",
     description: (
@@ -195,7 +195,7 @@ export const products = [
   {
     id: 3,
     name: "Natural Vanilla Paste",
-    image: "/src/assets/products/VANILLA_PASTE.jpg",
+    image: "/images/products/VANILLA_PASTE.jpg",
     excerpt:
       "Experience the rich, full-bodied flavor of hand-harvested Sri Lankan vanilla beans in a convenient, ready-to-use paste.",
     description: (
@@ -236,7 +236,7 @@ export const products = [
   {
     id: 4,
     name: "Natural Vanilla Powder ",
-    image: "/src/assets/products/VANILLA_POWDER.png",
+    image: "/images/products/VANILLA_POWDER.png",
     excerpt:
       "Discover the delicate, aromatic essence of hand-selected Sri Lankan vanilla beans in a finely ground, convenient powder form.",
     description: (
@@ -282,7 +282,7 @@ export const products = [
   {
     id: 5,
     name: "Natural Vanilla Syrup  ",
-    image: "/src/assets/products/VANILLA_SYRUP.jpg",
+    image: "/images/products/VANILLA_SYRUP.jpg",
     excerpt:
       "Indulge in the smooth, rich sweetness of hand-selected Sri Lankan vanilla beans infused into a velvety natural syrup.",
     description: (
@@ -322,7 +322,7 @@ export const products = [
   {
     id: 6,
     name: "100% Vanilla Bathing Bar – SKIN AND WELLNESS",
-    image: "/src/assets/products/VANILLA_BATHING_BAR.png",
+    image: "/images/products/VANILLA_BATHING_BAR.png",
     excerpt:
       "Experience the luxury of pure vanilla-infused skincare with our 100% Vanilla Bathing Bars — crafted to cleanse, nourish, and rejuvenate your skin naturally.",
     description: (
@@ -360,7 +360,7 @@ export const products = [
   {
     id: 7,
     name: "Hand Made Vanilla Based Soap",
-    image: "/src/assets/products/HAND_MADE_SOAP.jpg",
+    image: "/images/products/HAND_MADE_SOAP.jpg",
     excerpt:
       "Indulge in the luxurious care of handmade soaps enriched with premium natural vanilla.",
     description: (
@@ -404,7 +404,7 @@ export const products = [
   {
     id: 8,
     name: "Natural Vanilla Mood Fixing Spray",
-    image: "/src/assets/products/MOOD_FIXING_SPRAY.jpg",
+    image: "/images/products/MOOD_FIXING_SPRAY.jpg",
     excerpt:
       "Elevate your senses and enhance your mood with our Natural Vanilla-Based Mood Fixing Spray.",
     description: (
@@ -448,7 +448,7 @@ export const products = [
   {
     id: 9,
     name: "Natural Vanilla Infused Tea",
-    image: "/src/assets/products/VANILLA_TEA.jpg",
+    image: "/images/products/VANILLA_TEA.jpg",
     excerpt:
       "Savor the exquisite taste of premium Ceylon tea leaves, renowned worldwide for their bright, brisk flavor and natural freshness, delicately infused with pure Sri Lankan vanilla.",
     description: (
@@ -488,7 +488,7 @@ export const products = [
   {
     id: 10,
     name: "Natural Vanilla Infused Tea Sachet Pack – 30",
-    image: "/src/assets/products/TEA_SACHET.png",
+    image: "/images/products/TEA_SACHET.png",
     excerpt:
       "Enjoy the convenience of 30 individually packed sachets of premium Ceylon tea, delicately infused with pure Sri Lankan vanilla.",
     description: (
@@ -524,7 +524,7 @@ export const products = [
   {
     id: 11,
     name: "Premium Quality Vanilla Pods",
-    image: "/src/assets/products/VANILLA_PODS.jpg",
+    image: "/images/products/VANILLA_PODS.jpg",
     excerpt:
       "Experience the unmatched richness of hand-selected Sri Lankan vanilla pods, cultivated under ideal conditions to ensure superior aroma, flavor, and moisture content.",
     description: (
@@ -573,7 +573,7 @@ export const services = [
     title: "Creating Awareness",
     shortDesc:
       "The Sri Lankan Vanilla Initiative is one of the leading pioneers in the cultivation and processing of Vanilla in Sri Lanka.",
-    image: "/src/assets/services/img2.png",
+    image: "/images/services/img2.png",
     color: "primary",
   },
   {
@@ -582,7 +582,7 @@ export const services = [
     title: "Quality Planting Material",
     shortDesc:
       "SLVI's nursery is at the forefront of the effort to keep vanilla farming alive and well in Sri Lanka.",
-    image: "/src/assets/services/img5.jpg",
+    image: "/images/services/img5.jpg",
     color: "secondary",
   },
   {
@@ -591,7 +591,7 @@ export const services = [
     title: "Vanilla Cultivation",
     shortDesc:
       "SLVI has been dedicated to bringing the highest quality products to customers around the world for two decades.",
-    image: "/src/assets/services/img7.png",
+    image: "/images/services/img7.png",
     color: "green",
   },
   {
@@ -600,7 +600,7 @@ export const services = [
     title: "Contract Farming",
     shortDesc:
       "SLVI's mission is to empower farmers across Sri Lanka by providing them with the tools and resources needed to produce high-quality vanilla crops.",
-    image: "/src/assets/services/img8.png",
+    image: "/images/services/img8.png",
     color: "blue",
   },
 ];
@@ -629,35 +629,35 @@ export const testimonials = [
   {
     id: 1,
     name: "Mr. Udara Madushanka",
-    image: "/src/assets/reviews/testimonials_01.jpg",
+    image: "/images/reviews/testimonials_01.jpg",
     rating: 5,
     text: "They gave me a far greater service than I had expected, as well as paying the returns on time, so I'm extremely happy with Agro Ventures Plantations.",
   },
   {
     id: 2,
     name: "Mr. Withthamperuma Arachchige Yasendra",
-    image: "/src/assets/reviews/testimonials_02.jpg",
+    image: "/images/reviews/testimonials_02.jpg",
     rating: 5,
     text: "I got my first profit payment right on time from Agro Ventures Plantations. Looking forward to the future to come. Thank you Agro Ventures!",
   },
   {
     id: 3,
     name: "Mr. Malyoganam Ilayarajah",
-    image: "/src/assets/reviews/testimonials_03.jpg",
+    image: "/images/reviews/testimonials_03.jpg",
     rating: 5,
     text: "I receive the monthly payments on time, and I'm happy to say that this is a great investment choice for anyone.",
   },
   {
     id: 4,
     name: "Mr. G N Udaya Kumara",
-    image: "/src/assets/reviews/testimonials_04.jpg",
+    image: "/images/reviews/testimonials_04.jpg",
     rating: 5,
     text: "Agro Ventures is a company you can trust for your investments. Great service and timely returns.",
   },
   {
     id: 5,
     name: "Mr. Manjula Wimalasena",
-    image: "/src/assets/reviews/testimonials_05.jpg",
+    image: "/images/reviews/testimonials_05.jpg",
     rating: 5,
     text: "I live in South Korea and found Agro Ventures to be a reliable investment partner. Highly recommended.",
   },
@@ -715,7 +715,7 @@ export const slides = [
     subtitle: "Exports Worldwide",
     description:
       "Delivering the finest quality spices, grains, and agricultural products from India to global markets.",
-    image: "/src/assets/home/hero1.jpg",
+    image: "/images/home/hero1.jpg",
   },
   // {
   //   title: "From Farm to",
@@ -728,7 +728,7 @@ export const slides = [
     subtitle: "Global Standards",
     description:
       "ISO certified export processes ensuring premium quality in every shipment.",
-    image: "/src/assets/home/hero2.avif",
+    image: "/images/home/hero2.avif",
   },
 ];
 
@@ -779,7 +779,7 @@ export const projects = [
     title: "20,000 Green Houses for Vanilla Plantation",
     description:
       "We have laid the foundations for a project where we are working to set up 20,000 Greenhouses for Vanilla plantations before the year 2025. Our hope is that this initiative will allow Sri Lanka’s Vanilla export sector to grow to a value of USD 1 Billion, helping bring foreign revenue to the country as well as creating a brand for Sri Lankan vanilla, similar to the popularity of Ceylon Tea. This project will massively boost Sri Lanka’s agro export sector overall as our crops will be organically grown, setting a great example. We will also create many job opportunities over the course of this, and help the economies of the places we have put this project in motion.",
-    image: "/src/assets/about/greenhouse.jpg",
+    image: "/images/about/greenhouse.jpg",
     date: "2025",
   },
 ];
@@ -969,7 +969,7 @@ export const sortingCriteria = [
 export const ceoData = {
   name: 'Mr. Nilanga Karunarathne',
   designation: 'CEO/Founder',
-  image: '/src/assets/about/founder.png',
+  image: '/images/about/founder.png',
   message: `"As the Founder of Agroventures Exports, I am filled with
               immense pride and gratitude for the journey we have undertaken
               together. From the very inception of this company, our vision was

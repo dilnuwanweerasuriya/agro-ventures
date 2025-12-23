@@ -113,7 +113,7 @@ const ServiceAwareness = () => {
           <div className="relative">
             <div className="rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="/src/assets/services/img2.png"
+                src="/images/services/img2.png"
                 alt="Farmer Training"
                 className="w-full h-100 object-cover"
               />

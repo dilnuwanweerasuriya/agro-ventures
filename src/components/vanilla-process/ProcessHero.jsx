@@ -17,7 +17,7 @@ const ProcessHero = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/src/assets/vanilla-process/hero.png"
+          src="/images/vanilla-process/hero.png"
           alt="Vanilla Beans"
           className="w-full h-full object-cover"
         />
