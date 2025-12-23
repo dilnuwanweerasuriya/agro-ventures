@@ -12,7 +12,7 @@ const ProductsHero = () => {
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src="/images/products/hero.png"
+          src="/images/products/hero2.png"
           alt="Agricultural Products"
           className="w-full h-full object-cover"
         />
