@@ -403,7 +403,7 @@ export const products = [
   },
   {
     id: 8,
-    name: "Natural Vanilla Mood Fixing Spray",
+    name: "Mood Fixing Spray",
     image: "/images/products/MOOD_FIXING_SPRAY.jpg",
     excerpt:
       "Elevate your senses and enhance your mood with our Natural Vanilla-Based Mood Fixing Spray.",
@@ -447,7 +447,7 @@ export const products = [
   },
   {
     id: 9,
-    name: "Natural Vanilla Infused Tea",
+    name: "Natural Vanilla Tea",
     image: "/images/products/VANILLA_TEA.jpg",
     excerpt:
       "Savor the exquisite taste of premium Ceylon tea leaves, renowned worldwide for their bright, brisk flavor and natural freshness, delicately infused with pure Sri Lankan vanilla.",
@@ -487,6 +487,46 @@ export const products = [
   },
   {
     id: 10,
+    name: "Vanillac & Cinnamon Blended Tea",
+    image: "/images/products/VANILLA_CINNAMON_TEA.png",
+    excerpt:
+      "Savor the exquisite taste of premium Ceylon tea leaves, renowned worldwide for their bright, brisk flavor and natural freshness, delicately infused with pure Sri Lankan vanilla.",
+    description: (
+      <>
+        <p className="text-gray-600 text-sm mb-3 text-justify">
+          Savor the exquisite taste of{" "}
+          <span className="font-semibold">
+            premium Ceylon tea leaves, renowned worldwide for their bright,
+            brisk flavor and natural freshness, delicately infused with{" "}
+            <span className="font-semibold">pure Sri Lankan vanilla.</span> Our{" "}
+            <span className="font-semibold">
+              Natural Vanilla-Infused Ceylon Tea
+            </span>{" "}
+            delivers a smooth, aromatic experience with subtle sweet notes and
+            the comforting fragrance of vanilla, offering a luxurious tea ritual
+            in every cup. <br />
+            Perfect for{" "}
+            <span className="font-semibold">
+              morning rejuvenation, afternoon relaxation, or gifting,
+            </span>{" "}
+            this tea combines the finest
+            <span className="font-semibold"></span>world-class Ceylon tea
+          </span>{" "}
+          with natural vanilla to create a harmonious blend of flavor and
+          wellness.
+        </p>
+      </>
+    ),
+    ingredients: (
+      <ul>
+        <li>Premium Ceylon Tea Leaves (Black or Green)</li>
+        <li>Natural Vanilla Extract or Vanilla Beans</li>
+        <li>Optional Natural Flavor Enhancers (e.g., Cinnamon, Cardamom)</li>
+      </ul>
+    ),
+  },
+  {
+    id: 11,
     name: "Natural Vanilla Infused Tea Sachet Pack – 30",
     image: "/images/products/TEA_SACHET.png",
     excerpt:
@@ -523,7 +563,7 @@ export const products = [
   },
   {
     id: 11,
-    name: "Premium Quality Vanilla Pods",
+    name: "Natural Vanilla Beans",
     image: "/images/products/VANILLA_PODS.jpg",
     excerpt:
       "Experience the unmatched richness of hand-selected Sri Lankan vanilla pods, cultivated under ideal conditions to ensure superior aroma, flavor, and moisture content.",
