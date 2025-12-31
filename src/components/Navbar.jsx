@@ -28,7 +28,7 @@ const Navbar = () => {
           <a href="/" className="flex items-center space-x-3 group">
             <img 
               src="/logo-2.png" 
-              className={`w-40 transition-all duration-500 brightness-100 invert-0 ${
+              className={`w-40 md:w-60 transition-all duration-500 brightness-100 invert-0 ${
                 isScrolled 
                   ? 'brightness-100 invert-0' 
                   : 'brightness-0 invert filter'
