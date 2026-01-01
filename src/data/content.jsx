@@ -796,8 +796,7 @@ export const values = [
     icon: Eye,
     title: "Our Vision",
     description:
-      "To be the world's most trusted source of premium Sri Lanka vanilla products, setting global standards in quality, sustainability, and ethical trade.",
-    color: "primary",
+      "Our vision is to generate USD 1 billion for Sri Lanka by 2030 through sustainable and large-scale vanilla cultivation.
   },
   {
     icon: Target,
