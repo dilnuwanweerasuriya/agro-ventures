@@ -766,7 +766,7 @@ export const slides = [
     title: "Premium Agricultural",
     subtitle: "Exports Worldwide",
     description:
-      "Delivering the finest quality spices, grains, and agricultural products from India to global markets.",
+      "Delivering the finest quality spices, grains, and agricultural products from Sri Lanka to global markets.",
     image: "/images/home/hero1.jpg",
   },
   // {
@@ -862,7 +862,7 @@ export const certifications = [
   //   name: "FSSAI",
   //   type: "Food Safety License",
   //   icon: CheckCircle,
-  //   description: "Food Safety and Standards Authority of India",
+  //   description: "Food Safety and Standards Authority of Sri Lanka",
   //   color: "blue",
   // },
   // {
@@ -876,7 +876,7 @@ export const certifications = [
   //   name: "Spices Board",
   //   type: "Quality Certification",
   //   icon: Award,
-  //   description: "Certified exporter under Spices Board of India",
+  //   description: "Certified exporter under Spices Board of Sri Lanka",
   //   color: "orange",
   // },
 ];
