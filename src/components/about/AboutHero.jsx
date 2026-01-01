@@ -50,7 +50,7 @@ const AboutHero = () => {
 
           {/* Description */}
           <p className="text-xl md:text-2xl text-white/80 leading-relaxed mx-auto max-w-3xl mb-10">
-            From the fertile lands of India to tables across the globe, we bring
+            From the fertile lands of Sri Lanka to tables across the globe, we bring
             you the finest agricultural products with a commitment to quality,
             sustainability, and excellence.
           </p>
