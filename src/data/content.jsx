@@ -1061,7 +1061,7 @@ export const teamMembers = [
   },
   {
     id: 4,
-    name: 'Mrs. Ranganie Rabel',
+    name: 'Ms. Ranganie Rabel',
     designation: 'Front Office and Admin Executive',
     image: '/images/about/no-image.png',
   }
