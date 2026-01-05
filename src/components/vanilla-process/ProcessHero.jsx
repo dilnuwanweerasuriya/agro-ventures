@@ -47,7 +47,7 @@ const ProcessHero = () => {
               Home
             </Link>
             <span>/</span>
-            <span className="text-amber-400">Vanilla Process</span>
+            <span className="text-primary-400">Vanilla Process</span>
           </nav>
 
           <div className="max-w-4xl">
@@ -55,7 +55,7 @@ const ProcessHero = () => {
             <div className="space-y-8">
               {/* Badge */}
               <div className="inline-flex items-center space-x-2 bg-amber-500/20 backdrop-blur-sm border border-amber-500/30 rounded-full px-5 py-2.5">
-                <div className="w-2 h-2 bg-amber-400 rounded-full animate-pulse" />
+                <div className="w-2 h-2 bg-primary-400 rounded-full animate-pulse" />
                 <span className="text-sm font-medium text-amber-200">
                   Premium Vanilla Processing
                 </span>
@@ -65,7 +65,7 @@ const ProcessHero = () => {
               <div>
                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-display font-bold text-white leading-tight mb-6">
                   The Art of
-                  <span className="block text-amber-400">Vanilla Curing</span>
+                  <span className="block text-primary-400">Vanilla Curing</span>
                 </h1>
                 <p className="text-xl text-white/80 leading-relaxed max-w-xl">
                   Discover our meticulous 5-step process that transforms fresh
@@ -94,7 +94,7 @@ const ProcessHero = () => {
         <span className="text-xs uppercase tracking-widest mb-2">
           Discover the process
         </span>
-        <div className="w-6 h-10 border-2 border-amber-400/50 rounded-full flex justify-center pt-2">
+        <div className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center pt-2">
           <div className="w-1.5 h-3 bg-amber-400 rounded-full animate-bounce" />
         </div>
       </div>
