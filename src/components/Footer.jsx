@@ -63,7 +63,7 @@ const Footer = () => {
                 Leading exporter of premium quality agricultural products from Sri Lanka to the world.
               </p>
               <div className="space-y-3">
-                <a href="tel:+919876543210" className="flex items-center text-gray-400 hover:text-white transition-colors">
+                <a href="tel:+94112878766" className="flex items-center text-gray-400 hover:text-white transition-colors">
                   <Phone className="w-5 h-5 mr-3" />
                   +94 11 287 8766
                 </a>
