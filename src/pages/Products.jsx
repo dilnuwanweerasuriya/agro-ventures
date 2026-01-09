@@ -4,7 +4,7 @@ import ProductsHero from '../components/products/ProductsHero'
 import ProductCategories from '../components/products/ProductCategories'
 import FeaturedProducts from '../components/products/FeaturedProducts'
 import ProductGrid from '../components/products/ProductGrid'
-import ProductModal from '../components/products/ProductModal'
+// import ProductModal from '../components/products/ProductModal'
 import Footer from '../components/Footer'
 import useSEO from '../hooks/useSEO'
 
@@ -39,7 +39,7 @@ const Products = () => {
       <ProductsHero />
       {/* <ProductCategories />
       <FeaturedProducts onProductClick={openProductModal} /> */}
-      <ProductGrid onProductClick={openProductModal} />
+      <ProductGrid />
       <Footer />
       
       {/* <ProductModal 
